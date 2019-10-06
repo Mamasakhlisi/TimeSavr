@@ -422,7 +422,7 @@ footer .social a img {
 footer span {
   margin-top: 30px;
   font-family: "Montserrat", sans-serif;
-  text-align:center;
+  text-align: center;
 }
 
 footer .save {
@@ -493,7 +493,7 @@ footer .input input::placeholder {
 
 @media (max-width: 768px) {
   .texture img {
-    width: 200px;
+    width: 130px;
   }
   .features__title, .timesavr__title {
     padding: 10px;
@@ -604,6 +604,15 @@ footer .input input::placeholder {
   }
   footer .save button {
     margin-top: 10px;
+  }
+  footer .shapee {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+  footer .shapee img {
+    width: 100px;
+    max-width: 100%;
   }
 }
 

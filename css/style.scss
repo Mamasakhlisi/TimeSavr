@@ -313,6 +313,7 @@ footer {
     span {
         margin-top:30px;
         font-family:$Mon;
+        text-align:center;
     }
     .save {
         display:flex;
@@ -355,10 +356,10 @@ footer {
 @media (max-width:768px) {
     .texture {
         img {
-            width:200px;
+            width:130px;
         }
     }
-    
+ 
     .features__title {
         padding:10px;
         h1 {
@@ -452,6 +453,15 @@ footer {
             flex-direction: column;
             button {
                 margin-top:10px;
+            }
+        }
+        .shapee {
+            position: absolute;
+            right: 0;
+            z-index:-1;
+            img {
+                width: 100px;
+                max-width:100%;
             }
         }
     }
